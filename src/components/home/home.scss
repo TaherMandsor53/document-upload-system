@@ -1,0 +1,22 @@
+.home-main {
+  .document-progress-main {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px 22px;
+    margin: 30px 20px;
+    .progress-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .progress-text {
+        .field-value {
+          color: #4169e1;
+          font-weight: 500;
+        }
+        .user-name {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
