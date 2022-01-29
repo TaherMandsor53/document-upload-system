@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './main.scss';
+import 'react-dropzone-uploader/dist/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>

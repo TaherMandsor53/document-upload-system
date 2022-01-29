@@ -1,0 +1,47 @@
+.document-card-main {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 0.5fr;
+  align-items: center;
+  .document-name {
+    font-weight: 500;
+  }
+  .document-field {
+    color: #a9a9a9;
+  }
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: #a9a9a9;
+    font-size: 20px;
+  }
+}
+
+.file-upload-main {
+  margin-top: 20px;
+  border: 2px solid #d9d9d9;
+  border-style: dashed;
+  border-radius: 5px;
+  background: #f0ffff;
+  .upload-text-header {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .upload-text-content {
+    color: #a9a9a9;
+    font-size: 14px;
+  }
+  .file-upload {
+    .file-upload-input {
+    }
+  }
+
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin: 20px auto 0;
+    display: block;
+    font-size: 30px;
+    color: #646464;
+    cursor: pointer;
+  }
+}
