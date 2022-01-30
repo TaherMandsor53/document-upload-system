@@ -2,7 +2,7 @@
   "documentList": [
     {
       "documentId": 1,
-      "documentName": "Pan Card",
+      "documentName": "PanCard",
       "documentField": "25"
     },
     {
@@ -12,17 +12,17 @@
     },
     {
       "documentId": 3,
-      "documentName": "Driving Licence",
+      "documentName": "DrivingLicence",
       "documentField": "10"
     },
     {
       "documentId": 4,
-      "documentName": "Aadhar Card",
+      "documentName": "AadharCard",
       "documentField": "25"
     },
     {
       "documentId": 5,
-      "documentName": "Electricity Bill",
+      "documentName": "ElectricityBill",
       "documentField": "20"
     }
   ]
