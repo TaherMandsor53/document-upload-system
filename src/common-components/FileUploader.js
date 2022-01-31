@@ -73,7 +73,6 @@ export default function FileUploader({ data, getProgressValue }) {
               return (
                 <DocumentCard
                   documentkey={index}
-                  showCloseIcon
                   documentName={item.documentName}
                   documentFields={item.documentField}
                 />
