@@ -1,0 +1,66 @@
+.document-card-main {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 0.5fr;
+  align-items: center;
+  .document-name {
+    font-weight: 500;
+  }
+  .document-field {
+    color: #a9a9a9;
+  }
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: #a9a9a9;
+    font-size: 20px;
+  }
+}
+
+.file-upload-main {
+  .upload-text-header {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1c1c1c;
+  }
+  .upload-text-content {
+    color: #a9a9a9;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin: 0 auto 0;
+    display: block;
+    font-size: 30px;
+    color: #646464;
+    cursor: pointer;
+  }
+  .file-upload-btn {
+    margin-top: 20px;
+    border: 2px solid #d9d9d9;
+    border-style: dashed;
+    border-radius: 5px;
+    background: #f0ffff;
+    width: 100%;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    padding: 15px;
+  }
+  .file-upload-btn:hover {
+    border: 2px solid #d9d9d9;
+    border-style: dashed;
+    background: #f0ffff;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.file-name-display {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}

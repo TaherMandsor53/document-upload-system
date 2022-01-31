@@ -1,0 +1,29 @@
+{
+  "documentList": [
+    {
+      "documentId": 1,
+      "documentName": "PanCard",
+      "documentField": "25"
+    },
+    {
+      "documentId": 2,
+      "documentName": "Passport",
+      "documentField": "20"
+    },
+    {
+      "documentId": 3,
+      "documentName": "DrivingLicence",
+      "documentField": "10"
+    },
+    {
+      "documentId": 4,
+      "documentName": "AadharCard",
+      "documentField": "25"
+    },
+    {
+      "documentId": 5,
+      "documentName": "ElectricityBill",
+      "documentField": "20"
+    }
+  ]
+}

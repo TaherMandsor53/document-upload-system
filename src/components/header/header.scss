@@ -1,0 +1,22 @@
+.header-main {
+  background: #4169e1;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .form-header,
+  .preview-header {
+    display: flex;
+    align-items: center;
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+      color: #fff;
+    }
+    .form-text,
+    .preview-text {
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      margin-left: 12px;
+    }
+  }
+}

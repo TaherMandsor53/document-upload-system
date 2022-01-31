@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ErrorHandleComponent from './components/errorHandleComponent/ErrorHandleComponent';
+import HomeComponent from './components/home/HomeComponent';
+import HeaderComponent from './components/header/HeaderComponent';
+import { Provider } from 'react-redux';
+import Store from './store/Store';
 
 function App() {
+  const urlPath = window.location.pathname;
+  let isFlag = 0;
+  if (urlPath === '/') {
+    isFlag = 1;
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderComponent />
+      <Provider store={Store}>
+        <BrowserRouter>
+          {isFlag === 1 ? (
+            <Routes>
+              <Route path="/" element={<HomeComponent />} />
+            </Routes>
+          ) : (
+            <Routes>
+              <Route path={urlPath} element={<ErrorHandleComponent />} />
+            </Routes>
+          )}
+        </BrowserRouter>
+      </Provider>
     </div>
   );
 }
